@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hosale</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Hosale.</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#service">SERVICES</a></li>
+        <li><a href="#property">PROPERTIES</a></li>
+        <li><a href="#blog">BLOGS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <header id="header">
+      <div class="header__image"></div>
+      <div class="header__content">
+        <h1>Easy way to find your dream property</h1>
+      </div>
+      <form action="/">
+        <div class="input__group">
+          <label for="location">Location</label>
+          <input type="text" placeholder="Location" />
+        </div>
+        <div class="input__group">
+          <label for="propertyType">Property Type</label>
+          <input type="text" placeholder="Property Type" />
+        </div>
+        <div class="input__group">
+          <label for="price">Max Price</label>
+          <input type="text" placeholder="Max Price" />
+        </div>
+        <button class="btn">
+          <i class="ri-search-line"></i>
+        </button>
+      </form>
+    </header>
+
+    <section class="service">
+      <div class="section__container service__container" id="service">
+        <h2 class="section__header">How It Works</h2>
+        <div class="service__grid">
+          <div class="service__card">
+            <img src="assets/service-1.png" alt="service" />
+            <h4>Evaluate Property</h4>
+            <p>
+              Get a detailed assessment of your property's market value and
+              potential. Our experts ensure you have the right insights to make
+              informed decisions.
+            </p>
+          </div>
+          <div class="service__card">
+            <img src="assets/service-2.png" alt="service" />
+            <h4>Meet Your Agent</h4>
+            <p>
+              Connect with a professional real estate agent who will guide you
+              every step of the way. Personalized support makes your buying or
+              selling journey effortless.
+            </p>
+          </div>
+          <div class="service__card">
+            <img src="assets/service-3.png" alt="service" />
+            <h4>Close The Deal</h4>
+            <p>
+              Complete your transaction with confidence and ease. We ensure a
+              smooth process so you can secure your dream property without
+              hassle.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="experience__image"></div>
+      <div class="experience__content">
+        <h2 class="section__header">We Provide You<br />The Best Experience</h2>
+        <p>
+          Finding the perfect property should be an exciting and hassle-free
+          journey, and we are here to make that happen. With our expert
+          guidance, personalized support, and in-depth market knowledge, we
+          ensure a smooth and seamless real estate experience. Whether you are
+          buying, selling, or investing, we provide top-notch services, reliable
+          assistance, and the best deals to help you make informed decisions.
+        </p>
+        <div class="experience__btn">
+          <button class="btn">ALL PROPERTY</button>
+        </div>
+      </div>
+      <div class="experience__stats">
+        <div>
+          <h4>550+</h4>
+          <p>Property Build</p>
+        </div>
+        <div>
+          <h4>30+</h4>
+          <p>Awards Gained</p>
+        </div>
+        <div>
+          <h4>20+</h4>
+          <p>Years Of Experience</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container property__container" id="property">
+      <h2 class="section__header">Latest Property</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="property__card">
+              <img src="assets/property-1.jpg" alt="property" />
+              <div class="property__details">
+                <div class="property__details__header">
+                  <h4>Oceanview Villas</h4>
+                  <h5>$1,250,000</h5>
+                </div>
+                <div class="property__amenities">
+                  <div>
+                    <span><i class="ri-hotel-bed-line"></i></span> 5
+                  </div>
+                  <div>
+                    <span><i class="ri-showers-line"></i></span> 6
+                  </div>
+                  <div>
+                    <span><i class="ri-dashboard-fill"></i></span> 4000ft
+                  </div>
+                </div>
+                <div class="property__location">
+                  <span><i class="ri-map-pin-5-line"></i></span> 784 Coastal
+                  Drive, USA
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="property__card">
+              <img src="assets/property-2.jpg" alt="property" />
+              <div class="property__details">
+                <div class="property__details__header">
+                  <h4>Greenwood Estate</h4>
+                  <h5>$850,000</h5>
+                </div>
+                <div class="property__amenities">
+                  <div>
+                    <span><i class="ri-hotel-bed-line"></i></span> 4
+                  </div>
+                  <div>
+                    <span><i class="ri-showers-line"></i></span> 5
+                  </div>
+                  <div>
+                    <span><i class="ri-dashboard-fill"></i></span> 5500ft
+                  </div>
+                </div>
+                <div class="property__location">
+                  <span><i class="ri-map-pin-5-line"></i></span> 4521 Oakwood
+                  Lane, Austin
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="property__card">
+              <img src="assets/property-3.jpg" alt="property" />
+              <div class="property__details">
+                <div class="property__details__header">
+                  <h4>Skyline Tower Apartments</h4>
+                  <h5>$2,500,000</h5>
+                </div>
+                <div class="property__amenities">
+                  <div>
+                    <span><i class="ri-hotel-bed-line"></i></span> 6
+                  </div>
+                  <div>
+                    <span><i class="ri-showers-line"></i></span> 7
+                  </div>
+                  <div>
+                    <span><i class="ri-dashboard-fill"></i></span> 4500ft
+                  </div>
+                </div>
+                <div class="property__location">
+                  <span><i class="ri-map-pin-5-line"></i></span> 2201 West 5th
+                  Street, New York
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="property__card">
+              <img src="assets/property-4.jpg" alt="property" />
+              <div class="property__details">
+                <div class="property__details__header">
+                  <h4>Maplewood Cottage</h4>
+                  <h5>$540,000</h5>
+                </div>
+                <div class="property__amenities">
+                  <div>
+                    <span><i class="ri-hotel-bed-line"></i></span> 4
+                  </div>
+                  <div>
+                    <span><i class="ri-showers-line"></i></span> 5
+                  </div>
+                  <div>
+                    <span><i class="ri-dashboard-fill"></i></span> 3500ft
+                  </div>
+                </div>
+                <div class="property__location">
+                  <span><i class="ri-map-pin-5-line"></i></span> 980 Maple
+                  Street, Denver
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="property__card">
+              <img src="assets/property-5.jpg" alt="property" />
+              <div class="property__details">
+                <div class="property__details__header">
+                  <h4>Royal Crest Mansion</h4>
+                  <h5>$4,800,000</h5>
+                </div>
+                <div class="property__amenities">
+                  <div>
+                    <span><i class="ri-hotel-bed-line"></i></span> 5
+                  </div>
+                  <div>
+                    <span><i class="ri-showers-line"></i></span> 6
+                  </div>
+                  <div>
+                    <span><i class="ri-dashboard-fill"></i></span> 5000ft
+                  </div>
+                </div>
+                <div class="property__location">
+                  <span><i class="ri-map-pin-5-line"></i></span> 1789 Kingsway,
+                  Beverly Hills
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe" id="contact">
+      <h2 class="section__header">Subscribe<br />Our Newsletter</h2>
+      <form action="/">
+        <input type="text" placeholder="Enter your email" />
+        <button class="btn">Subscribe</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#">Hosale.</a>
+          </div>
+          <p>
+            At Hosale, we make buying, selling, and investing in properties easy
+            and stress-free. Let's turn your real estate goals into reality!
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR COMPANY</h4>
+          <ul class="footer__links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>SUPPORT</h4>
+          <ul class="footer__links">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Property Listings</a></li>
+            <li><a href="#">Buyer's Guide</a></li>
+            <li><a href="#">Seller's Guide</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>PROPERTIES</h4>
+          <div class="footer__property__detail">
+            <img src="assets/footer.jpg" alt="footer" />
+            <div>
+              <h5>Sunset Heights</h5>
+              <p>1256 Maple Avenue, Los Angeles</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2025. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
